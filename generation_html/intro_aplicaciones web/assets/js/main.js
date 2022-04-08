@@ -1,1 +1,2 @@
-alert ("mi primer pagian completa")
+//alert ("mi primer pagian completa")
+
