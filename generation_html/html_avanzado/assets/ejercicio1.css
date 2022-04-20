@@ -1,0 +1,54 @@
+body{
+
+ background-color: aquamarine;   
+}
+
+table{
+
+border: 1px solid black;
+}
+
+th{
+
+width: 600px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bolder;
+border: 1px solid black;
+}
+
+td{
+
+    width: auto;
+    border: 1px solid black;
+}
+
+.titulo{
+
+  text-align: center;  
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.colorRo{
+
+color: red;
+}
+
+.colorxd{
+
+color: white;
+
+
+}
+.colorNa{
+
+    color: orangered;
+}
+
+.colorV {
+
+color: green;
+
+}
+
+  
+

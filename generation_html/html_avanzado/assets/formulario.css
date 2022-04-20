@@ -1,0 +1,30 @@
+
+.formulario {
+ border: 5px solid blueviolet;
+padding: 10px;
+background-color: #ba72fd;
+border-radius: 10px;
+}
+
+.colorfondo{
+
+    background-color:#ba72fd;
+    border: none ;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-enviar{
+   background-color: blueviolet;
+border: none;
+color: white;
+padding: 5px 20px;
+border-radius: 5px ;
+}
+
+.acomodoLabel{
+
+display: inline-block;
+width: 100px ;
+
+}
