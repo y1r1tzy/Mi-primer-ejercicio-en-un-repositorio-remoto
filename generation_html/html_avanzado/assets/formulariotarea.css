@@ -1,0 +1,41 @@
+
+.formulario {
+    border: 10px solid rgb(168, 168, 241);
+   padding: 50px;
+   background-color: green;
+   border-radius: 10px;
+   color: white;
+   }
+   
+   .colorfondo{
+   
+       background-color:#ba72fd;
+    border:none
+    
+    border-radius 5px;
+       margin-bottom: 10px ;
+       
+   }
+   
+   .btn-enviar{
+      background-color: white;
+   border: none;
+   color: black;
+   padding: 5px 20px;
+   border-radius: 5px ;
+   }
+   
+   .acomodoLabel{
+   
+   display: inline-block ;
+   width: 250px ;
+   text-align: center;
+   }
+input{
+
+   border: 3px solid red;
+display: inline-block 30px;
+}
+   
+   
+

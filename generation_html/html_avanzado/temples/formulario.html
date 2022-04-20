@@ -36,19 +36,9 @@
 <input type="submit" value="mandar">
 </form>
 
-<script>
-    const color = document.querySelector("#inputColor")
-    console.log(color)
-
-    color.addEventListener("change", function (e) {
-        document.body.style.backgroundColor = e.target.value;
-    })
-</script>
-
-<hr>
 
 <h1>Formulario</h1>
-<form class="formulario">
+<form class="formulario" id="formularioDatos">
     <div class="nombre">
         <label class="acomodoLabel" for="nombre">Nombre</label>
         <input class="colorFondo" type="text" id="nombre" placeholder="Nombre">
@@ -75,5 +65,8 @@
 
 
 </form>
+
+<script src="assets/js/main.js"></script>
 </body>
+
 </html>
