@@ -1,0 +1,49 @@
+*{
+
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+
+position: relative;
+/*
+bottom
+top
+left
+rigt
+*/
+
+
+}
+.cuadro{
+
+    
+}
+h1{
+    position: relative;
+    top: 150px;
+    /*botton:200px*/
+    /*z-index: -1;*/
+}
+
+.div1{
+    background-color: aqua;
+    position: static;
+    bottom: 20px;
+}
+
+.div2{ 
+    background-color: blueviolet;
+    position: relative;
+bottom: 50%;
+left: 100px;
+
+}
+.div3{
+background-color: tomato;
+
+
+
+}
