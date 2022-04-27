@@ -7,23 +7,23 @@ object-fit: cover;
 object-position: center;
 }
 
+.narbar-nav{
+
+margin-left: auto;
+}
+
 .img-carrusel{
     height: calc(100vh - 76px);
-
-    
     object-fit: cover;
     object-position: center;
     
 }
 
 .pantalla{
-
-position: relative;
 z-index: 1;
 width: 100%;
 height: calc(100vh - 76px);
-
-
+position: absolute;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -31,19 +31,17 @@ text-align: center;
 }
 
 .cuadro{
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.45);
-
-
-
-
-
-
+    opacity: 1;
+    color: white;
+    padding: 2rem;
 
 
 }
 .img-card{
-
-    height: 200px;
+width: 100%;
+    height: 20vh;
     object-fit: cover;
     object-position: center;
 
