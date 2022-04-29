@@ -1,0 +1,34 @@
+const $card = document.querySelector (`.card`);
+const $form = document.querySelector (`form`);
+
+$form.addEventListener (`submit`, () => {
+    e.preventDefault();
+
+
+   const datos = Object.fromEntries(
+
+    new FormData(e.target)
+   )
+
+/* console.log(datos); */
+
+crearElemento (datos.url, datos.texto);
+
+/* console.log(datos.preventDefault); */
+
+});
+
+
+function crearElemento() {
+    const img = document.createElement("img");
+    const txt = document.createElement(txt);
+    img.src = url 
+    img.alt =texto;
+
+    text.textContent  = text;
+    // appendChild
+    $card.appendChild(img);
+  }
+  
+ 
+
