@@ -132,31 +132,31 @@ break
 formulario.addEventListener("submit", (e) => {
 	e.preventDefault();
   /* console.log(object.values(statusInf)); */
-  console.log(object.values(statusInf).includes(false));
+ /*  console.log(object.values(statusInf).includes(false)); */
 
-  if(!console.log(object.values(statusInf).includes(false))){
+  if(!object.values(statusInf).includes(false) && check == true  ){
+	 /*  console.log("enviado"); */
 
-	console.log("enviado");
-
+	 document.querySelector(".alert-danger").style.display = "none"
+	 const datos = object.fromEntries(
+      new FormData(e.target)
+	 )
+   console.log(datos)
+	
   }
 else{
 
 console.log("no enviado")
 
-document.querySelector(".alert-danger").style.display = "none"
-
-}
-
-
-
+document.querySelector(".alert-danger").style.display = "block"
 
 
 }
-     
+
+    })
 
 
 
-})
 
 
 
